@@ -51,6 +51,9 @@ Here is the live [link](https://xind14.netlify.app/)
 ### Reflections and Comments
 
 1. A link to the deployed version of your latest code. 
+
+     [link](https://xind14.netlify.app/)
+     
 2. A question within the context of this lab assignment
     - How. Just how are you suppose to apply CSS when there's so many created for you and you don't know the names of IDs or Class. It was so frustrating. Console wasn't that helpful because it was showing styles in pages I didn't have access to.
 
