@@ -70,8 +70,8 @@ header .nav {
 }
 
 header .nav-link {
-	color: rgb(255, 251, 0);
-	font-weight: 600;
+	color: cornsilk;
+	// font-weight: 600;
 	font-size: 25px;
 
 }
@@ -85,6 +85,7 @@ header .nav-link {
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
+	// text-align: center;
 
 }
 
@@ -145,7 +146,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #efe1bd;
 	overflow: hidden;
 }
 
@@ -161,13 +162,15 @@ header h1 {
 .foto img {
 	display: block;
 	width: 100%;
+	border-radius: 2%;
 	
 }
 
 .foto div {
 	background: #ffffff;
+	border-radius: 2%;
 	display: inline-block;
-	margin: 0 auto 5% auto;
+	margin: 0 5% 5% 5%;
 	padding: 10px 10px 5px;
 	text-align: center;
 	text-decoration: none;
@@ -269,30 +272,50 @@ header h1 {
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 16px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #c94646 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .experience-badge {
-	font-size: 11px !important;
+	font-size: 15px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #c94646 !important;
+	// border-radius: 20%;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+// .bg-primary {
+// 	--bs-bg-opacity: 1;
+// 	background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+// }
+
+
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	font-size: 2rem !important;
+}
+
+.vertical-timeline-element-title {
+	// padding: 0 !important;
+	// margin: 0 !important;
+	font-size: 2rem !important;
+	font-weight: bold;
+}
+.vertical-timeline-element-subtitle {
+	// padding: 0 !important;
+	// margin: 0 !important;
+	font-size: 1.8rem !important;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -367,7 +390,7 @@ header h1 {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .awssld__next {
@@ -449,7 +472,7 @@ footer {
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
-	font-size: 14px;
+	font-size: 20px;
 	color: white;
 	position: relative;
 	text-align: center;
@@ -467,6 +490,6 @@ footer a:focus {
 
 .social-links {
 	margin-top: 10px;
-	font-size: 22px;
+	font-size: 30px;
 	
 }

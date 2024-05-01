@@ -18,8 +18,8 @@ class ProjectDetailsModal extends Component {
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                  <i className={icons.class} style={{ fontSize: "400%" }}>
+                    <p className="text-center" style={{ fontSize: "50%" }}>
                       {icons.name}
                     </p>
                   </i>
@@ -77,7 +77,7 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3 style={{ padding: "5px 5px 0 5px", fontSize: "3rem" }}>
               {title}
               {url ? (
                 <a
