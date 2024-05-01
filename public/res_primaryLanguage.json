@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 Hi there, I'm Xin, and I'm starting an exciting journey from veterinary clinic team management to the forward-thinking world of software development. While working as a lead receptionist, I honed my multitasking and problem-solving skills. But, I felt stagnant and knew I needed a change to pursue a more fulfilling and stable career path that involved a lot more creativity and impact. I entered this field because it merges creativity with the potentials of technology. But what really motivates me is the opportunity to design user-friendly applications and be a part of pioneering innovations. I excel in environments where collaboration is central, and where progressive ideas come to life. My advantage lies in my background in client-facing roles, where I've come to understand the importance of seamless user interactions. I'm excited to apply this expertise in the tech industry. With strong problem-solving skills and effective communication abilities, I'm looking forward to making a valuable contribution to any software development team.",
+      "description": "👋 Hi there, I'm Xin. I graduated college with an environmental science degree and realized too late that I didn’t like spending the majority of my time writing research papers and because I needed time to rethink my career, the first job I took out of college was working as a receptionist at a vet clinic. Where I realized I actually had a knack for team leadership and problem solving when I moved to a lead position and the first thing I did was create a training guide for new hires because I wanted to set others up for success in a less stressful way that I experienced. But, I needed a more fulfilling career and so I went to a coding school where I saw how creative tech can be. It’s a great balance of art and stem which I love so I’m ready to channel that passion into any project",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -12,28 +12,49 @@
     "projects": [
      
       {
-        "title": "301 Project",
-        "startDate": "2023",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Quick Lab",
+        "startDate": "2024",
+        "description": "A user-friendly system that streamlines the setup process for lab assignments, ensuring that students can focus on learning rather than the intricacies of environment configuration. By automating the environment setup, we aim to create a seamless, error-free process that adapts to various operating systems and Python versions, guaranteeing that every participant starts from a standardized, fully-prepared platform. This project enhanced the efficiency and accessibility of labs but also foster a more inclusive and engaging learning experience by removing technical barriers and allowing students to dive straight into coding.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/401-mid/p1.jpg",
+          "images/portfolio/401-mid/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Pawgrammers-Collective/quick-lab",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Job.fetch()",
+        "startDate": "2023",
+        "description": "The project is a comprehensive tech career preparation and job search engine that integrates job search functionalities, resume building, interview preparation, and career coaching features. Leveraging AI, the platform generates interview questions and cover letters based on job descriptions and uploaded resumes. This all-in-one solution aims to streamline the tech job search process, enhance candidate preparation, and provide personalized career coaching.",
+        "images": [
+          "images/portfolio/301-final/p1.jpg",
+          "images/portfolio/301-final/p2.jpg"
+        ],
+        "url": "https://github.com/Pawgrammers-Collective/job.fetch-frontend",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           }
         ]
-      }, {
+      },
+      {
         "title": "Cocktail Generator",
         "startDate": "2023",
-        "description": "The first expanded application/project I had opportunity to work with in Code Fellows 201. I've learned many technologies and had a great time with my team. Application is a digital bartender that will guide you to crafting the perfect cocktail. Choose a base spirit, plus additional ingredients and your bartender will present you with a recipe to help you create a tasty drink.",
+        "description": "A digital bartender that will guide you to crafting the perfect cocktail. Choose a base spirit, plus additional ingredients and your bartender will present you with a recipe to help you create a tasty drink.",
         "images": [
           "images/portfolio/201-final/p1.jpg",
           "images/portfolio/201-final/p2.jpg"
@@ -41,40 +62,16 @@
         "url": "https://github.com/XBJ-Software-Solutions/XBJ-Cocktail-Generator",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Odd Duck",
-        "startDate": "2023",
-        "description": "Second project I was working on in Code Fellows 201. It's one of my decent looking ones that I am proud of. ",
-        "images": [
-          "images/portfolio/201-odd/p1.jpg",
-          "images/portfolio/201-odd/p2.jpg"
-        ],
-        "url": "https://github.com/xind14/odd-duck",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           }
         ]
       }
@@ -83,9 +80,10 @@
       {
         "company": "Code Fellows",
         "title": "Software Developer Student",
-        "years": "10.2023 - present",
+        "years": "10.2023 - 03.2024",
         "mainTech": [
-          "JavScript"
+          "JavScript",
+          "Python"
         ],
         "technologies": [
           "HTML",
@@ -100,7 +98,7 @@
       },
       {
         "company": "CPC",
-        "title": "Lead Receptionist",
+        "title": "Program Lead",
         "years": "05.2021 - 05.2023",
         "mainTech": [
           "Team Management"
